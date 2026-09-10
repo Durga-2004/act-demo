@@ -36,5 +36,5 @@ jobs:
           echo "All tests passed successfully!"
  
       - name: Display Build Status
-        run: echo "Build status received: ${{ needs.build.outputs.status }}"
+        run: 'echo "Build status received: ${{ needs.build.outputs.status }}"'
  
